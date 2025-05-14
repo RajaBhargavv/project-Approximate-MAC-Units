@@ -1,0 +1,179 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# 
+# 
+# 
+# 
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -gui do 
+# Start time: 12:58:16 on May 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit do.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# End time: 12:58:17 on May 13,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:38 on May 13,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling module ha
+# -- Compiling module fa
+# -- Compiling module adder4
+# -- Compiling module adder4c
+# -- Compiling module add21
+# -- Compiling module CLA
+# -- Compiling module multiplier_4b
+# -- Compiling module approx_mult
+# -- Compiling module accurates
+# -- Compiling module acc_mult
+# -- Compiling module acc_mult15
+# -- Compiling module pip_acc
+# -- Compiling module accurate_mode
+# -- Compiling module vhigh_approx
+# -- Compiling module high_approx
+# -- Compiling module low_approx
+# -- Compiling module adderpg4
+# -- Compiling module adderpg4c
+# -- Compiling module mux
+# -- Compiling module adder32
+# -- Compiling module mac32
+# -- Compiling module top
+# 
+# Top level modules:
+# 	add21
+# 	accurate_mode
+# 	vhigh_approx
+# 	high_approx
+# 	top
+# End time: 12:58:38 on May 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -suppress 12110 top 
+# Start time: 12:58:38 on May 13,2025
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading sv_std.std
+# Loading work.top
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.mac32
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.mac32
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.low_approx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.low_approx
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.approx_mult
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.approx_mult
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.ha
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.ha
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.fa
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.fa
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.acc_mult15
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.acc_mult15
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.accurates
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.accurates
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.multiplier_4b
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.multiplier_4b
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.CLA
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.CLA
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.acc_mult
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.acc_mult
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.adder4
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.adder4
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.pip_acc
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.pip_acc
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.adder4c
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.adder4c
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.adder32
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.adder32
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.adderpg4c
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.adderpg4c
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.mux
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.mux
+# Refreshing D:/MTECH_2nd SEM/Mini_project/verilog_modules/accurate_mac/work.adderpg4
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Loading work.adderpg4
+# ************************************************************
+# Expected output in1=13604_0011010100100100 and in2=24193_0101111010000001 multiply is ==  329121572_00010011100111011111111100100100 and mac=2552419629_10011000001000101101010100101101
+# Actual   output in1=13604_0011010100100100 and in2=24193_0101111010000001 is multiply ==  329252852_00010011100111111111111111110100 mac=2552550909_10011000001001001101010111111101
+# ______________________________________________ERROR=     131280_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=22115_0101011001100011 and in2=31501_0111101100001101 multiply is ==  696644615_00101001100001011111010000000111 and mac=1885703572_01110000011001011000110110010100
+# Actual   output in1=22115_0101011001100011 and in2=31501_0111101100001101 is multiply ==  696644855_00101001100001011111010011110111 mac=1885703812_01110000011001011000111010000100
+# ______________________________________________ERROR=        240_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=33893_1000010001100101 and in2=21010_0101001000010010 multiply is ==  712091930_00101010011100011010100100011010 and mac= 728075291_00101011011001011000110000011011
+# Actual   output in1=33893_1000010001100101 and in2=21010_0101001000010010 is multiply ==  712178170_00101010011100101111100111111010 mac= 728161531_00101011011001101101110011111011
+# ______________________________________________ERROR=      86240_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=52493_1100110100001101 and in2=61814_1111000101110110 multiply is == 3244802302_11000001011001111100000011111110 and mac=3757411899_11011111111101011000111000111011
+# Actual   output in1=52493_1100110100001101 and in2=61814_1111000101110110 is multiply == 3244753150_11000001011001110000000011111110 mac=3757362747_11011111111101001100111000111011
+# ______________________________________________ERROR=      49152_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=22509_0101011111101101 and in2=63372_1111011110001100 multiply is == 1426440348_01010101000001011100000010011100 and mac=3523455637_11010010000000111010101010010101
+# Actual   output in1=22509_0101011111101101 and in2=63372_1111011110001100 is multiply == 1426272508_01010101000000110011000011111100 mac=3523287797_11010010000000010001101011110101
+# ______________________________________________ERROR=     167840_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1= 9414_0010010011000110 and in2=33989_1000010011000101 multiply is ==  319972446_00010011000100100110010001011110 and mac=3894818568_11101000001001100011011100001000
+# Actual   output in1= 9414_0010010011000110 and in2=33989_1000010011000101 is multiply ==  315917566_00010010110101001000010011111110 mac=3890763688_11100111111010000101011110101000
+# ______________________________________________ERROR=    4054880_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=63461_1111011111100101 and in2=29303_0111001001110111 multiply is == 1859597683_01101110110101110011010101110011 and mac=4161407877_11111000000010100000101110000101
+# Actual   output in1=63461_1111011111100101 and in2=29303_0111001001110111 is multiply == 1855214579_01101110100101000101001111110011 mac=4157024773_11110111110001110010101000000101
+# ______________________________________________ERROR=    4383104_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=56207_1101101110001111 and in2=27122_0110100111110010 multiply is == 1524446254_01011010110111010011010000101110 and mac=1112787708_01000010010100111100101011111100
+# Actual   output in1=56207_1101101110001111 and in2=27122_0110100111110010 is multiply == 1520120574_01011010100110110011001011111110 mac=1108462028_01000010000100011100100111001100
+# ______________________________________________ERROR=    4325680_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=31464_0111101011101000 and in2=20165_0100111011000101 multiply is ==  634471560_00100101110100010100010010001000 and mac=1412009444_01010100001010011000110111100100
+# Actual   output in1=31464_0111101011101000 and in2=20165_0100111011000101 is multiply ==  630297848_00100101100100011001010011111000 mac=1407835732_01010011111010011101111001010100
+# ______________________________________________ERROR=    4173712_________________
+# ************************************************************
+# ************************************************************
+# Expected output in1=10429_0010100010111101 and in2=22573_0101100000101101 multiply is ==  235413817_00001110000010000010000100111001 and mac=3232712606_11000000101011110100011110011110
+# Actual   output in1=10429_0010100010111101 and in2=22573_0101100000101101 is multiply ==  231280633_00001101110010010000111111111001 mac=3228579422_11000000011100000011011001011110
+# ______________________________________________ERROR=    4133184_________________
+# ************************************************************
+# ___________________total error=  21505312  >>>>>  totalProduct=2393067935_______
+# ** Note: $finish    : top.sv(44)
+#    Time: 132 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at top.sv line 44
+# End time: 13:00:29 on May 13,2025, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 1

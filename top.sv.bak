@@ -1,0 +1,44 @@
+`include"mac32.sv"
+module top;
+reg [15:0] in1,in2;
+reg [31:0] product,add1,mac_out;
+reg seed=1231;
+ integer mult,mac_m;
+integer error1,error2,error;
+integer count=10;
+reg [31:0] total_error=0,total_product=0;
+real error_percent;
+real error_per;
+
+mac32 dut(.add1(add1),.reg1(in1),.reg2(in2),.mul_out(product),.mac_out(mac_out));
+
+initial begin
+	repeat(count) begin
+		in1=$random;
+		in2=$random;
+		add1=$random;
+		#100;
+		mult=in1*in2;
+		mac_m=mult+add1;
+		$display("************************************************************");
+		$display("Expected output in1=%d_%b and in2=%d_%b multiply is == %d_%b and mac=%d_%b",in1,in1,in2,in2,mult,mult,mac_m,mac_m);
+		$display("Actual   output in1=%d_%b and in2=%d_%b is multiply == %d_%b mac=%d_%b",in1,in1,in2,in2,product,product,mac_out,mac_out);
+		error1=product-mult;
+		error2=mult-product;
+		error=error1>error2?error1:error2;
+		total_product=total_product+mult;
+		total_error=total_error+error;
+		error_per=((mult-error)/mult)*100;
+		
+		$display("_____________ERROR=%d_%b__________e1=%d e2=%d______accuracy_percent=%f%%", error1>error2?error1:error2, error1>error2?error1:error2,error1,error2,error_per);
+		if(mult==product && mac_m==mac_out) $display("-------------------------- -------------------------------PASS---------");
+		//else $display("-----------FAIL----------");
+		$display("************************************************************");
+	end
+	
+	error_percent= (total_error/total_product) *100;
+	$display("__________________ERROR_PERCENT=%f%%_total error=%d>>>>>totalProduct_______",error_percent,total_error,total_product);
+	#100 $finish;
+end
+endmodule
+
